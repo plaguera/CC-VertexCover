@@ -1,5 +1,11 @@
 package es.ull.cc.main;
 
+/**
+ * 3SAT Clause
+ * @author Pedro Miguel Lagüera Cabrera
+ * Dec 27, 2017
+ * Clause.java
+ */
 public class Clause {
 	
 	private Component[] components;
@@ -13,7 +19,6 @@ public class Clause {
 
 	public Component[] getComponents() { return components; }
 	private void setComponents(Component[] components) { this.components = components; }
-	
 	public String toString() {
 		return "(" + components[0].getValue() + " ^ " + components[1].getValue() + " ^ " + components[2].getValue() + ")";
 	}

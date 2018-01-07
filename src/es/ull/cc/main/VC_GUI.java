@@ -21,6 +21,12 @@ import org.graphstream.graph.implementations.SingleGraph;
 import javax.swing.JTextArea;
 import javax.swing.JButton;
 
+/**
+ * Graphic Interface for 3SAT to VC Transformation
+ * @author Pedro Miguel Lagüera Cabrera
+ * Dec 27, 2017
+ * VC_GUI.java
+ */
 @SuppressWarnings("serial")
 public class VC_GUI extends JFrame {
 
@@ -28,9 +34,6 @@ public class VC_GUI extends JFrame {
 	private String clause = "[(]\\s*[!]?\\w\\d\\s*\\^\\s*[!]?\\w\\d\\s*\\^\\s*[!]?\\w\\d\\s*[)]";
 	private String element = "[!]?\\w\\d";
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
